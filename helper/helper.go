@@ -41,3 +41,10 @@ func ToInt(s string) int {
 	}
 	return i
 }
+
+func IsNumber(c string) bool {
+	if c >= "0" && c <= "9" {
+		return true
+	}
+	return false
+}
